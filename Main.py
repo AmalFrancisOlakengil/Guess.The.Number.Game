@@ -20,7 +20,7 @@ while (run):
          print("Your Guess is high than Target")
       i += 1
      if i == 6:
-        print("The right answer is %d"%(Target))
+        print("The right answer is %d\n"%(Target))
         choice = input('Continue?\nyes or no:')
         if choice == 'yes':
             run = True
